@@ -63,3 +63,7 @@ temp/
 tmp/
 .ideaLib/ 
 *.attach_pid*
+
+# C/C++ 
+*.out
+cmake-build-debug/
