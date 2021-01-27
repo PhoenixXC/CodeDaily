@@ -1,0 +1,8 @@
+# Generated from CLion C/C++ Code Style settings
+BasedOnStyle: Google
+IndentCaseLabels: true
+IndentPPDirectives: None
+IndentWidth: 2
+PointerAlignment: Left
+TabWidth: 2
+UseTab: Never
