@@ -5,7 +5,7 @@
 obj-m += hello.o
 
 hello-y := \
-	main.o \
+	src/main.o \
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build/ M=$(PWD) modules

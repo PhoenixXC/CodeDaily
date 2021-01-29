@@ -20,7 +20,7 @@ include_directories(${KERNELHEADERS_INCLUDE_DIRS} ${KERNELHEADERS_ARCH_INCLUDE_D
 # find MODULE_LICENSE("GPL"), MODULE_AUTHOR() etc.
 add_definitions(-D__KERNEL__ -DMODULE)
 
-add_executable(module main.c)
+add_executable(module src/main.c)
 
 # CLion IDE will find symbols from <linux/*>
 target_include_directories("module" PRIVATE ${KERNELHEADERS_INCLUDE_DIRS})
